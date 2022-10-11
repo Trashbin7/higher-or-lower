@@ -19,6 +19,7 @@ choice = 0
 time.sleep(0.1)
 print("loading... ⠹")
 import random
+import colorama
 replit.clear()
 print("loading... ⠽")
 
@@ -29,7 +30,7 @@ time.sleep(0.3)
 replit.clear()
 print("-----------------")
 time.sleep(0.05)
-print("Hi, Welcome back to up or down!")
+print(Fore.RED "Hi, Welcome back to up or down!")
 time.sleep(0.05)
 print()
 time.sleep(0.05)
